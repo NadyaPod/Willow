@@ -1,0 +1,29 @@
+{
+  "name": "willow",
+  "version": "1.0.0",
+  "description": "Willow project",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NadyaPod/Willow.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NadyaPod/Willow/issues"
+  },
+  "homepage": "https://github.com/NadyaPod/Willow#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.12",
+    "browser-sync": "^2.27.10",
+    "gulp": "^4.0.2",
+    "gulp-dart-sass": "^1.0.2",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^9.0.1"
+  },
+  "type": "module"
+}
