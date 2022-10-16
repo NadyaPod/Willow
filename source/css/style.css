@@ -1,8 +1,22 @@
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Roboto.woff2") format("woff2"), url("../fonts/Roboto.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Inter.woff2") format("woff2"), url("../fonts/Inter.woff") format("woff");
+  font-display: swap;
+}
 body {
-  background-color: rgb(126, 30, 30);
+  font-family: "Roboto", "Arial", sans-serif;
 }
 
-html {
-  color: rgb(112, 82, 146);
+h1 {
+  font-family: "Inter", "Arial", sans-serif;
 }
 /*# sourceMappingURL=style.css.map */

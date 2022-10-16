@@ -14,7 +14,7 @@ const styles = () => {
 };
 
 const html = () => {
-  return gulp.src("source/*.html").pipe(gulp.dest("source"));
+  return gulp.src("source/*.html");
 };
 
 const server = (done) => {
