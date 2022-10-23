@@ -1,0 +1,29 @@
+.navigation__list {
+  height: 100%;
+  max-width: 600px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.navigation__item {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.navigation__link {
+  text-align: center;
+  display: block;
+  padding: 40px 18px;
+  font-size: 12px;
+  line-height: 24px;
+  color: $light-green-secondary;
+  text-decoration: none;
+  height: 100%;
+}

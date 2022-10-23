@@ -1,0 +1,15 @@
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: inherit;
+  text-decoration: none;
+  border-right: 1px solid $grey-border;
+  padding: 32px;
+}
+
+.logo__text {
+  padding-right: 40px;
+  font-size: 24px;
+  line-height: 32px;
+}

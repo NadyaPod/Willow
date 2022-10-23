@@ -8,7 +8,11 @@ import autoprefixer from "autoprefixer";
 const styles = () => {
   return gulp
     .src("source/sass/style.scss", { sourcemaps: true })
+    .pipe(plumber())
     .pipe(sass().on("error", sass.logError))
+    .pipe(postcss([
+      autoprefixer(),
+    ]))
     .pipe(gulp.dest("source/css", { sourcemaps: "." }))
     .pipe(browser.stream());
 };

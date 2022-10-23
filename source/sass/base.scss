@@ -1,7 +1,16 @@
-body {
-  font-family: $main-font;
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
-h1 {
-  font-family: $secondary-font;
+*,
+::before,
+::after {
+  box-sizing: border-box;
 }
