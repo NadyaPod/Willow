@@ -1,0 +1,61 @@
+.hero__wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hero__content {
+  width: 60%;
+}
+
+.hero__widget {
+  min-height: 569px;
+  min-width: 400px;
+  width: 40%;
+  background-color: $white-secondary;
+  background-image: url("../../img/decor/hero.svg");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+.hero__title-text {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 32px;
+  color: $light-green;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.hero__title {
+  margin: 0;
+  margin-bottom: 20px;
+  font-weight: 400;
+  max-width: 410px;
+  font-size: 72px;
+  line-height: 80px;
+  letter-spacing: 2.8px;
+}
+
+// Reuse for upper?
+.hero__text {
+  margin: 0;
+  margin-bottom: 32px;
+  font-size: 15px;
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  color: $main-green;
+}
+
+.hero__link {
+  display: block;
+  text-align: center;
+  width: 174px;
+  padding: 14px 34px;
+  font-size: 14px;
+  line-height: 24px;
+  color: $white;
+  text-decoration: none;
+  background-color: $light-green;
+  margin-bottom: 100px;
+}

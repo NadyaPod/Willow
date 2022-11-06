@@ -8,7 +8,9 @@
 
 .header__wrap {
   display: flex;
+  justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .header__contact {
